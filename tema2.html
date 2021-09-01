@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNAD - F1 - Presaberes 2021</title>
+    <meta name="description" content="El propósito de este sitio es Planear propuestas de sitios web interactivos haciendo uso de los fundamentos teóricos de introducción y planeación de sitios web para la concepción de proyectos web. El autor es Gustavo Tabares estudiante de la UNAD CEAD Eje Cafetero"/>
+    <meta name="keywords" content="html, html5, css, css3, etiquetas semanticas, listas, enlaces, tablass"/>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <header class="container">
+    <h1 class="col-lg-12" style="text-align: center;">Presaberes UNAD 2021</h1>    
+  </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  id="sticky">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">
+                  Inicio
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tablas
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown">
+                  <li>
+                    <a class="dropdown-item" href="tema1.html">Principales Etiquetas HTML5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="tema2.html">Estilos CSS3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="autor.html">
+                    Autor
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <main class="container">
+        <section class="row">
+            <article class="col-lg-12" style="text-align: center;">
+              <h2>Estilos CSS3</h2><br/>
+              <table class="table table-hover">
+                <caption style="text-align: center;" ALIGN="top">
+                  <h5>Tabla 2</h5>
+                </caption>
+                <tr>
+                  <th scope="col">Estilos CSS3</th>
+                  <th>Descripción</th>
+                  <th>Sintáxis</th>
+                </tr>
+                <tr>
+                  <td>&lt;color&gt;</td>
+                  <td class="colordetexto">Define el color de texto (En este caso a rojo)</td>
+                  <td style="text-align: left;">&lt;td style="color: red"&gt;Texto&lt;/td&gt;</td>
+                </tr>
+                <tr>
+                  <td>&lt;background&gt;</td>
+                  <td style="background-color: yellow;">Define el color de fondo (En este caso es amarillo)</td>
+                  <td style="text-align: left;">&lt;td style="background-color: yellow"&gt;Texto&lt;/td&gt;</td>
+                </tr>
+                <tr>
+                  <td>&lt;border&gt;</td>
+                  <td style= "border-width: 2px; border-color: black;">Define el grosor del borde de un elemento</td>
+                  <td style="text-align: left;">&lt;td style="border-width: 2px; border-color: black"&gt;Texto&lt;/td&gt;</td>
+                </tr>
+                <tr>
+                  <td>&lt;margin&gt;</td>
+                  <td>
+                    <div class="margen">
+                      <p>Define el margen de un elemento</p>
+                    </div>
+                  </td>
+                  <td style="text-align: left;">
+                    <p>
+                      &lt;td&gt;<br/>
+                      &lt;div class="margin: auto; background: gold; width: 33%;"&gt;<br/>
+                      texto<br/>
+                      &lt;/div&gt;<br/>
+                      &lt;/td&gt;
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;text-decoration&gt;</td>
+                  <td style="text-decoration: underline;">Define las decoraciones del texto<br/> En este caso tiene subrayado</td>
+                  <td style="text-align: left;">&lt;td style="text-decoration: underline;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;text-transform&gt;</td>
+                  <td style="text-transform: uppercase;">Define las decoraciones del texto<br/> En este caso pone todo en mayúsculas</td>
+                  <td style="text-align: left;">&lt;td style="text-transform: uppercase;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;text-transform&gt;</td>
+                  <td style="text-transform: lowercase;">Define las decoraciones del texto<br/> En este caso pone todo en minúsculas</td>
+                  <td style="text-align: left;">&lt;td style="text-transform: lowercase;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;text-transform&gt;</td>
+                  <td style="text-transform: capitalize;">Define las decoraciones del texto<br/> En este caso pone la primer letra de cada palabra en mayúsculas</td>
+                  <td style="text-align: left;">&lt;td style="text-transform: uppercase;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;text-shadow&gt;</td>
+                  <td style="text-shadow: 2px 2px yellow;">Define las decoraciones del texto<br/> En este caso pone una sombra amarilla</td>
+                  <td style="text-align: left;">&lt;td style="text-shadow: 2px 2px yellow;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;letter-spacing&gt;</td>
+                  <td style="letter-spacing: 5px;">Define las decoraciones del texto<br/> En este caso genera más espacio entre letras</td>
+                  <td style="text-align: left;">&lt;td style="letter-spacing: 5px;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;font-family&gt;</td>
+                  <td style="font-family: Times New Roman;">Define las decoraciones del texto<br/> En este caso cambia el tipo de fuente</td>
+                  <td style="text-align: left;">&lt;td style="font-family: Times New Roman;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;height&gt;/&lt;width&gt;</td>
+                  <td style="height: 200px; width: 50%; background-color: powderblue;">Define las decoraciones del texto<br/> En este caso hay un alto de 200px y un ancho de 50%</td>
+                  <td style="text-align: left;">&lt;td style="height: 200px; width: 50%; background-color: powderblue;"&gt;Texto&lt;/td&gt;
+                  </td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>Define las decoraciones del enlace:<br/>
+                      <a class="link1" href="autor.html" target="_blank">Este link cambia el color de texto</a>
+                    </td>
+                    <td style="text-align: left;">&lt;a class="link1" href="autor.html" target="_blank"&gt;Enlace&lt;/a&gt;<br/><br/>
+                      En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                      a.link1:link {color: blue;}<br/>
+                      a.link1:visited {color: green;}<br/>
+                      a.link1:hover {color: darkviolet;}
+                    </td>
+                </tr>
+                <tr>
+                  <td>&lt;link&gt;</td>
+                  <td>Define las decoraciones del enlace:<br/>
+                    <a class="link2" href="autor.html" target="_blank">Este link cambia el tamaño de fuente</a>
+                  </td>
+                  <td style="text-align: left;">&lt;a class="link2" href="autor.html" target="_blank"&gt;Enlace&lt;/a&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    a.link2:link {color: blue;}<br/>
+                    a.link2:visited {color: green;}<br/>
+                    a.link2:hover {font-size:150%;}
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;link&gt;</td>
+                  <td>Define las decoraciones del enlace:<br/>
+                    <a class="link3" href="autor.html" target="_blank">Este link cambia el color de fondo</a>
+                  </td>
+                  <td style="text-align: left;">&lt;a class="link3" href="autor.html" target="_blank"&gt;Enlace&lt;/a&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    a.link3:link {color: blue;}<br/>
+                    a.link3:visited {color: green;}<br/>
+                    a.link3:hover {background:greenyellow;}
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;link&gt;</td>
+                  <td>Define las decoraciones del enlace:<br/>
+                    <a class="link4" href="autor.html" target="_blank">Este link cambia la familia fuentes</a>
+                  </td>
+                  <td style="text-align: left;">&lt;a class="link4" href="autor.html" target="_blank"&gt;Enlace&lt;/a&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    a.link4:link {color: blue;}<br/>
+                    a.link4:visited {color: green;}<br/>
+                    a.link4:hover {font-family:monospace;}
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;link&gt;</td>
+                  <td>Define las decoraciones del enlace:<br/>
+                    <a class="link5" href="autor.html" target="_blank">Este link cambia la decoración de texto</a>
+                  </td>
+                  <td style="text-align: left;">&lt;a class="link5" href="autor.html" target="_blank"&gt;Enlace&lt;/a&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    a.link5:link {color:blue; text-decoration:none;}
+                    a.link5:visited {color:green; text-decoration:none;}
+                    a.link5:hover {text-decoration:underline;}
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;ul&gt;</td>
+                  <td>
+                    Define las decoraciones de las listas desordenadas:<br/>
+                    Listado con círculo<br/><br/>
+                    <ul class="circulo">
+                      <li>arroz</li>
+                      <li>carne</li>
+                      <li>Coca Cola</li>
+                    </ul>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;ul class="circulo"&gt;<br/>
+                    &lt;li>arroz&lt;/li&gt;<br/>
+                    &lt;li>carne&lt;/li&gt;<br/>
+                    &lt;li>Coca Cola&lt;/li&gt;<br/>
+                    &lt;/ul&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    ul.circulo {<br/>
+                      list-style-type: circle;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;ul&gt;</td>
+                  <td>
+                    Define las decoraciones de las listas desordenadas:<br/>
+                    Listado con cuadrado<br/><br/>
+                    <ul class="cuadrado">
+                      <li>arroz</li>
+                      <li>carne</li>
+                      <li>Coca Cola</li>
+                    </ul>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;ul class="circulo"&gt;<br/>
+                    &lt;li>arroz&lt;/li&gt;<br/>
+                    &lt;li>carne&lt;/li&gt;<br/>
+                    &lt;li>Coca Cola&lt;/li&gt;<br/>
+                    &lt;/ul&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    ul.circulo {<br/>
+                      list-style-type: circle;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;ol&gt;</td>
+                  <td>
+                    Define las decoraciones de las listas ordenadas:<br/>
+                    Listado con números romanos en mayúsculas<br/><br/>
+                    <ol class="ALFA">
+                      <li>arroz</li>
+                      <li>carne</li>
+                      <li>Coca Cola</li>
+                    </ol>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;ol class="ALFA"&gt;<br/>
+                    &lt;li>arroz&lt;/li&gt;<br/>
+                    &lt;li>carne&lt;/li&gt;<br/>
+                    &lt;li>Coca Cola&lt;/li&gt;<br/>
+                    &lt;/ol&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    ol.ALFA {<br/>
+                      list-style-type: upper-roman;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;ol&gt;</td>
+                  <td>
+                    Define las decoraciones de las listas ordenadas:<br/>
+                    Listado con letras alfabéticas en minúsculas<br/><br/>
+                    <ol class="minusculas">
+                      <li>arroz</li>
+                      <li>carne</li>
+                      <li>Coca Cola</li>
+                    </ol>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;ol class="minusculas"&gt;<br/>
+                    &lt;li>arroz&lt;/li&gt;<br/>
+                    &lt;li>carne&lt;/li&gt;<br/>
+                    &lt;li>Coca Cola&lt;/li&gt;<br/>
+                    &lt;/ol&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    ol.minusculas {<br/>
+                      list-style-type: lower-alpha;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>&lt;table&gt;</td>
+                  <td>
+                    Define las decoraciones de las Tablas:<br/><br/>
+                    <table id="tabla1">
+                      <tr><th>Nombre</th><th>Apellido</th></tr>
+                      <tr><td>Gustavo</td><td>Tabares</td></tr>
+                      <tr><td>Ana</td><td>Giraldo</td></tr>
+                    </table>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;table id="tabla1"&gt;<br/>
+                      &lt;tr&gt;&lt;th&gt;Nombre&lt;/th&gt;&lt;th&gt;Apellido&lt;/th&gt;&lt;/tr&gt;<br/>
+                      &lt;tr&gt;&lt;td&gt;Gustavo&lt;/td&gt;&lt;td&gt;Tabares&lt;/td&gt;&lt;/tr&gt;<br/>
+                      &lt;tr&gt;&lt;td&gt;Ana&lt;/td&gt;&lt;td&gt;Giraldo&lt;/td&gt;&lt;/tr&gt;<br/>
+                      &lt;/table&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    #tabla1 th {<br/>
+                      padding-top: 12px;<br/>
+                      padding-bottom: 12px;<br/>
+                      text-align: center;<br/>
+                      background-color: #04AA6D;<br/>
+                      color: white;<br/>
+                    }<br/><br/>
+                  
+                    #tabla1, #tabla1 th, #tabla1 td{<br/>
+                      font-family: Arial, Helvetica, sans-serif;<br/>
+                      border-collapse: collapse;<br/>
+                      width: 75%;<br/>
+                      border: 5px solid darkgreen;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>position</td>
+                  <td>
+                    La propiedad "position" Especifica el tipo de método de posicionamiento usado para un elemento<br/>
+                    "static"<br/>
+                    Los elementos HTML son posicionados estaticamente por defecto<br/>
+                    Un elemento con "position: static" se posiciona de acuerdo con el flujo normal de la página<br/><br/>
+                    <div class="static">
+                      Este elemento tiene "position: static";
+                    </div>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;div class="static"&gt;<br/>
+                      Este elemento tiene "position: static";<br/>
+                      &lt;/div&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    div.static {<br/>
+                      position: static;<br/>
+                      border: 3px solid green;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>position</td>
+                  <td>
+                    La propiedad "position" Especifica el tipo de método de posicionamiento usado para un elemento<br/>
+                    "relative"<br/>
+                    Un elemento con "position: relative" se posiciona relativamente con su posición normal<br/><br/>
+                    <div class="relative">
+                      Este elemento tiene "position: relative";
+                    </div>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;div class="relative"&gt;<br/>
+                      Este elemento tiene "position: relative";<br/>
+                      &lt;/div&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    div.relative {<br/>
+                      position: relative;<br/>
+                      left: 60px;<br/>
+                      border: 3px solid green;<br/>
+                      }
+                  </td>
+                </tr>
+                <tr>
+                  <td>position</td>
+                  <td>
+                    La propiedad "position" Especifica el tipo de método de posicionamiento usado para un elemento<br/>
+                    "fixed"<br/>
+                    Un elemento con "position: fixed" se posiciona relativamente con el viewport, significa que siempre estará en la misma posición aún cuando se suba o baje la página<br/><br/>
+                    <div class="fixed">
+                      Este elemento tiene "position: fixed";
+                    </div>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;div class="fixed"&gt;<br/>
+                      Este elemento tiene "position: fixed";<br/>
+                      &lt;/div&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    div.fixed {<br/>
+                      position: fixed;<br/>
+                      bottom: 0;<br/>
+                      right: 0;<br/>
+                      width: 100px;<br/>
+                      border: 3px solid green;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>Overflow</td>
+                  <td>
+                    La propiedad "Overflow" controla lo que pasa con contenido demasiado grande para que quepa en un área<br/><br/>
+                    <div id="overflowTest">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, vitae. Veniam doloribus laboriosam, eaque beatae laborum dolores nemo asperiores in magnam rem itaque sunt animi cumque culpa quae ipsam. Atque.
+                    </div>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;div id="overflowTest"&gt;<br/>
+                      Texto demasiado grande<br/>
+                      &lt;/div&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    #overflowTest {<br/>
+                      background: #4CAF50;<br/>
+                      color: white;<br/>
+                      padding: 15px;<br/>
+                      width: 50%;<br/>
+                      height: 100px;<br/>
+                      overflow: scroll;<br/>
+                      border: 1px solid #ccc;<br/>
+                      }
+                  </td>
+                </tr>
+                <tr>
+                  <td>float</td>
+                  <td>
+                    La propiedad "float" especifica cómo un elemento podría flotar<br/><br/>
+                    Ejemplo: float-right<br/><br/>
+                    <h2>Autor</h2>
+                    <p>
+                      Gustavo Tabares<br/>
+                      <img id="img1" src="img/fotoperfil.jpg" alt="Foto del perfil" title="Foto del perfil de Gustavo Tabares" width="200px"><br/>
+                      <b>Grupo: </b>301127_10<br/>
+                      <b>Cédula:</b> <em>10140847</em><br/>
+                      <b>Skype: </b>gatabaresm@hotmail.com<br/>
+                      <b>WhatsApp: </b>3217533733<br/>
+                      <b>Email: </b>gatabaresm@unadvirtual.edu.co<br/><br/>
+                      <b>Programa:</b> <em>Ingeniería de Sistemas</em><br/>
+                    </p>
+                  </td>
+                  <td style="text-align: left;">
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    #img1 {<br/>
+                      float: right;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>float</td>
+                  <td>
+                    La propiedad "float" especifica cómo un elemento podría flotar<br/><br/>
+                    Ejemplo: float-left<br/><br/>
+                    <h2>Autor</h2>
+                    <p>
+                      Gustavo Tabares<br/>
+                      <img id="img2" src="img/fotoperfil.jpg" alt="Foto del perfil" title="Foto del perfil de Gustavo Tabares" width="200px"><br/>
+                      <b>Grupo: </b>301127_10<br/>
+                      <b>Cédula:</b> <em>10140847</em><br/>
+                      <b>Skype: </b>gatabaresm@hotmail.com<br/>
+                      <b>WhatsApp: </b>3217533733<br/>
+                      <b>Email: </b>gatabaresm@unadvirtual.edu.co<br/><br/>
+                      <b>Programa:</b> <em>Ingeniería de Sistemas</em><br/>
+                    </p>
+                  </td>
+                  <td style="text-align: left;">
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    #img2 {<br/>
+                      float: left;<br/>
+                    }
+                  </td>
+                </tr>
+                <tr>
+                  <td>float</td>
+                  <td>
+                    La propiedad "float" especifica cómo un elemento podría flotar<br/><br/>
+                    Ejemplo: float Next to Each Other<br/><br/>
+                    Normalmente los elementos se muestran unos encima de otros. Sin embargo al usar "float: left" podemos permitir que los elemento floten uno al lado de otro<br/><br/>
+                    <div id="div1">Div 1</div>
+                    <div id="div2">Div 2</div>
+                    <div id="div3">Div 3</div>
+                  </td>
+                  <td style="text-align: left;">
+                    &lt;div id="div1"&gt;Div 1&lt;/div&gt;<br/>
+                    &lt;div id="div2"&gt;Div 2&lt;/div&gt;<br/>
+                    &lt;div id="div3"&gt;Div 3&lt;/div&gt;<br/><br/>
+                    En la hoja de estilos: estilos.css colocamos las instrucciones:<br/><br/>
+                    #div1 {<br/>
+                      width:100px;<br/>
+                      float: left;<br/>
+                      padding: 5px;<br/>
+                      background: red;<br/>
+                  }<br/><br/>
+                  
+                  #div2 {<br/>
+                      width:100px;<br/>
+                      float: left;<br/>
+                      padding: 5px;<br/>
+                      background: yellow;<br/>
+                  }<br/><br/>
+                  
+                  #div3 {<br/>
+                      width:100px;<br/>
+                      float: left;<br/>
+                      padding: 5px;<br/>
+                      background: green;<br/>
+                  }
+                  </td>
+                </tr>
+              </table>
+            </article>
+         </section>
+    </main>
+
+    <footer>
+        <p class="pie">
+          <a name='acercade'></a>
+          <b>Director/Tutor: </b>Francisco Javier Hilarión Novoa<br/>
+          <b>Skype: </b>frankelectro<br/>
+          <b>Email: </b>francisco.hilarion@unad.edu.co<br/><br/>
+          <b>Universidad Nacional Abierta y a Distancia UNAD de Colombia</b><br/>
+          Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional - SNIES 2102<br/>
+          En Bogotá D.C. (Colombia) Tel: <b>(+57)(1)375 9500</b>  Línea gratuita nacional: <b>01 8000 115223</b><br/><br/>
+          <b>Fecha de Creación:</b> lunes 30 de agosto de 2021<b> / Fecha de Actualización:</b> martes 31 de agosto de 2021
+        </p>
+    </footer>
+</body>
+</html>
